@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Night City Signal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--Most of the code and the images are made by AI, I have gone in and made a few changes to make sure it worked well, looked good, and aligned with my sketches.-->
+
+<body>
+    <header class="site-head">
+        <div class="wrap head-in">
+            <a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="44" height="44">Night City
+                Signal</a>
+            <nav aria-label="Main">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="category.html">Street Beat</a></li>
+                    <li><a href="article.html">Feature</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Also went in and made the bar at the top follow the user instead of disapering as you scroll (this became the thing I had the most trouble with but it worked out)-->
+    <main>
+        <div class="wrap">
+            <section class="hero" aria-labelledby="hero-title">
+                <img src="images/blackout-hero.svg"
+                    alt="Night City skyline at dusk with most windows dark after a power failure" width="1200"
+                    height="600">
+                <div class="hero-text">
+                    <p class="tag">The Grid &middot; Lead story</p>
+                    <h1 id="hero-title">Heywood Goes Dark: One Clinic Kept the Lights On With Salvaged Batteries</h1>
+                    <p class="dek">Forty-one blocks lost power at 2:14 a.m. A free clinic on Sixth Street never lost a
+                        single monitor.</p>
+                    <a class="btn" href="article.html">Read the full report</a>
+                </div>
+            </section>
+            <section aria-labelledby="latest">
+                <h2 id="latest" class="sec-title">Latest from the streets</h2>
+                <ul class="cards">
+                    <li>
+                        <article class="card"><img src="images/patrol.svg" alt="Rooftops under a red dusk sky"
+                                width="640" height="360" loading="lazy">
+                            <div class="card-body">
+                                <p class="tag">Corporate</p>
+                                <h3><a href="article.html">Two security firms trade blame over a stalled Watson patrol
+                                        contract</a></h3>
+                                <p>Residents say response times doubled while the lawyers argued.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card"><img src="images/datakrash.svg"
+                                alt="Skyline silhouetted against a magenta sunset" width="640" height="360"
+                                loading="lazy">
+                            <div class="card-body">
+                                <p class="tag">The Net</p>
+                                <h3><a href="article.html">Old DataKrash servers are surfacing at Pacifica swap
+                                        meets</a></h3>
+                                <p>Sellers promise lost archives. Buyers should promise themselves a good antivirus.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card"><img src="images/braindance.svg"
+                                alt="Tall towers with scattered amber windows" width="640" height="360" loading="lazy">
+                            <div class="card-body">
+                                <p class="tag">Culture</p>
+                                <h3><a href="article.html">Braindance clubs reopen under looser safety rules</a></h3>
+                                <p>City inspectors cut the checklist from forty items to nine.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card"><img src="images/ripper.svg" alt="Dense city blocks at twilight"
+                                width="640" height="360" loading="lazy">
+                            <div class="card-body">
+                                <p class="tag">Tech</p>
+                                <h3><a href="article.html">What a ripperdoc licence really covers, and what it
+                                        doesn't</a></h3>
+                                <p>A plain-language guide to cheap chrome, warranties, and walking away.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card"><img src="images/nomads.svg" alt="Low skyline on the horizon at dusk"
+                                width="640" height="360" loading="lazy">
+                            <div class="card-body">
+                                <p class="tag">Street Beat</p>
+                                <h3><a href="article.html">Nomad convoy parks outside the city limits, asks for water
+                                        trade</a></h3>
+                                <p>Forty vehicles, one hand-lettered sign, and a very patient negotiator.</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section class="strip" aria-labelledby="sections">
+                <h2 id="sections" class="sec-title">Browse sections</h2>
+                <ul class="chips">
+                    <li><a href="category.html">Street Beat</a></li>
+                    <li><a href="category.html">The Grid</a></li>
+                    <li><a href="category.html">Corporate</a></li>
+                    <li><a href="category.html">The Net</a></li>
+                    <li><a href="category.html">Culture</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="site-foot">
+        <div class="wrap foot-in">
+            <div>
+                <p class="brand-s">Night City Signal</p>
+                <p>Independent street-level reporting from the city that never stops arguing.</p>
+            </div>
+            <nav aria-label="Footer">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="category.html">Street Beat</a></li>
+                    <li><a href="article.html">Feature</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <p class="fine">Fan-made, unofficial student project. Cyberpunk Red and its setting belong to R. Talsorian
+                Games. All artwork on this site is original.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
